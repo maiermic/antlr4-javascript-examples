@@ -2,10 +2,13 @@
   "name": "antlr4-parser-example",
   "version": "1.0.0",
   "description": "An example of an parser generated with ANTLR4.",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "antlr4 -Dlanguage=JavaScript Expr.g4 -o parser",
+    "start": "npm run csv-to-array",
+    "csv-to-array": "node --harmony --harmony_destructuring csv-to-array.js",
+    "expr": "node --harmony --harmony_destructuring expr.js",
+    "build": "npm run build-csv && npm run build-expr",
+    "build-csv": "antlr4 -Dlanguage=JavaScript CSV.g4 -o parsers/csv",
+    "build-expr": "antlr4 -Dlanguage=JavaScript Expr.g4 -o parsers/expr",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Maier",
