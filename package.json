@@ -1,0 +1,16 @@
+{
+  "name": "antlr4-parser-example",
+  "version": "1.0.0",
+  "description": "An example of an parser generated with ANTLR4.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "antlr4 -Dlanguage=JavaScript Expr.g4 -o parser",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Maier",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.5.2"
+  }
+}
