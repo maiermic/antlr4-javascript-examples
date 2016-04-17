@@ -1,5 +1,5 @@
 {
-  "name": "antlr4-parser-example",
+  "name": "antlr4-javascript-examples",
   "version": "1.0.0",
   "description": "An example of an parser generated with ANTLR4.",
   "scripts": {
