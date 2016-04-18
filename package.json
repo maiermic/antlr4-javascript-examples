@@ -6,7 +6,8 @@
     "start": "npm run csv-to-array",
     "csv-to-array": "node --harmony --harmony_destructuring csv-to-array.js",
     "expr": "node --harmony --harmony_destructuring expr.js",
-    "build": "npm run build-csv && npm run build-expr",
+    "build": "npm run build-cymbol && npm run build-csv && npm run build-expr",
+    "build-cymbol": "antlr4 -Dlanguage=JavaScript browser-example/Cymbol.g4 -o browser-example/parser",
     "build-csv": "antlr4 -Dlanguage=JavaScript CSV.g4 -o parsers/csv",
     "build-expr": "antlr4 -Dlanguage=JavaScript Expr.g4 -o parsers/expr",
     "test": "echo \"Error: no test specified\" && exit 1"
