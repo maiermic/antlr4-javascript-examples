@@ -12,5 +12,5 @@
 
 **Run examples:**
 
-- **Browser example:** `npm run cymbol` oder `npm start`
+- **Browser example:** `npm run cymbol` oder `npm start` oder [Online-Demo](http://maiermic.github.io/antlr4-javascript-examples/browser-example/)
 - **Node example:** `npm run csv-to-array`
