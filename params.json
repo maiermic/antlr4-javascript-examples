@@ -1,0 +1,6 @@
+{
+  "name": "Antlr4-javascript-examples",
+  "tagline": "Some examples of the ANTLR4 JavaScript target.",
+  "body": "# Examples of the [ANTLR4](http://www.antlr.org/) [JavaScript target](https://github.com/antlr/antlr4/blob/master/doc/javascript-target.md)\r\n\r\n**Required:**\r\n\r\n- [Node.JS](https://nodejs.org) (tested with version 5.10.1)\r\n- [ANTLR4](http://www.antlr.org/download.html) (tested with version 4.5.3)\r\n- browser (tested with Chrome 49.0.2623.87) \r\n    - Firefox 34.0.5\r\n    - Safari 8.0.2\r\n    - Chrome 39.0.2171\r\n    - Explorer 11.0.3\r\n\r\n**Run examples:**\r\n\r\n- **Browser example:** `npm run cymbol` oder `npm start`\r\n- **Node example:** `npm run csv-to-array`\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
