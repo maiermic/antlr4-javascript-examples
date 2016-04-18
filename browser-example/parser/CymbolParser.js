@@ -1,4 +1,4 @@
-// Generated from C:/Projects/JavaScript/antlr4-parser-example/browser-example\Cymbol.g4 by ANTLR 4.5.1
+// Generated from browser-example/Cymbol.g4 by ANTLR 4.5.3
 // jshint ignore: start
 var antlr4 = require('antlr4/index');
 var CymbolListener = require('./CymbolListener').CymbolListener;
@@ -18,7 +18,7 @@ var serializedATN = ["\u0003\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd",
     "\u0003\t\u0003\t\u0003\t\u0003\t\u0003\t\u0003\t\u0003\t\u0005\tL\n",
     "\t\u0003\t\u0003\t\u0005\tP\n\t\u0003\t\u0003\t\u0003\t\u0003\t\u0003",
     "\t\u0003\t\u0003\t\u0003\t\u0003\t\u0005\t[\n\t\u0003\n\u0003\n\u0003",
-    "\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0005\ne\n\n\u0003\n\u0003",
+    "\n\u0003\n\u0005\na\n\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003",
     "\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003",
     "\n\u0003\n\u0005\ns\n\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003",
     "\n\u0003\n\u0003\n\u0003\n\u0007\n~\n\n\f\n\u000e\n\u0081\u000b\n\u0003",
@@ -62,16 +62,16 @@ var serializedATN = ["\u0003\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd",
     "\u0004\u0002\u0002Y[\u0003\u0002\u0002\u0002ZC\u0003\u0002\u0002\u0002",
     "ZD\u0003\u0002\u0002\u0002ZE\u0003\u0002\u0002\u0002ZM\u0003\u0002\u0002",
     "\u0002ZR\u0003\u0002\u0002\u0002ZW\u0003\u0002\u0002\u0002[\u0011\u0003",
-    "\u0002\u0002\u0002\\]\b\n\u0001\u0002]^\u0007\u0013\u0002\u0002^s\u0005",
-    "\u0012\n\n_`\u0007\u0014\u0002\u0002`s\u0005\u0012\n\tab\u0007\u0018",
-    "\u0002\u0002bd\u0007\b\u0002\u0002ce\u0005\u0014\u000b\u0002dc\u0003",
-    "\u0002\u0002\u0002de\u0003\u0002\u0002\u0002ef\u0003\u0002\u0002\u0002",
-    "fs\u0007\t\u0002\u0002gh\u0007\u0018\u0002\u0002hi\u0007\u0011\u0002",
-    "\u0002ij\u0005\u0012\n\u0002jk\u0007\u0012\u0002\u0002ks\u0003\u0002",
-    "\u0002\u0002ls\u0007\u0018\u0002\u0002ms\u0007\u0019\u0002\u0002no\u0007",
+    "\u0002\u0002\u0002\\]\b\n\u0001\u0002]^\u0007\u0018\u0002\u0002^`\u0007",
+    "\b\u0002\u0002_a\u0005\u0014\u000b\u0002`_\u0003\u0002\u0002\u0002`",
+    "a\u0003\u0002\u0002\u0002ab\u0003\u0002\u0002\u0002bs\u0007\t\u0002",
+    "\u0002cd\u0007\u0018\u0002\u0002de\u0007\u0011\u0002\u0002ef\u0005\u0012",
+    "\n\u0002fg\u0007\u0012\u0002\u0002gs\u0003\u0002\u0002\u0002hi\u0007",
+    "\u0013\u0002\u0002is\u0005\u0012\n\njk\u0007\u0014\u0002\u0002ks\u0005",
+    "\u0012\n\tls\u0007\u0018\u0002\u0002ms\u0007\u0019\u0002\u0002no\u0007",
     "\b\u0002\u0002op\u0005\u0012\n\u0002pq\u0007\t\u0002\u0002qs\u0003\u0002",
-    "\u0002\u0002r\\\u0003\u0002\u0002\u0002r_\u0003\u0002\u0002\u0002ra",
-    "\u0003\u0002\u0002\u0002rg\u0003\u0002\u0002\u0002rl\u0003\u0002\u0002",
+    "\u0002\u0002r\\\u0003\u0002\u0002\u0002rc\u0003\u0002\u0002\u0002rh",
+    "\u0003\u0002\u0002\u0002rj\u0003\u0002\u0002\u0002rl\u0003\u0002\u0002",
     "\u0002rm\u0003\u0002\u0002\u0002rn\u0003\u0002\u0002\u0002s\u007f\u0003",
     "\u0002\u0002\u0002tu\f\b\u0002\u0002uv\u0007\u0015\u0002\u0002v~\u0005",
     "\u0012\n\twx\f\u0007\u0002\u0002xy\t\u0003\u0002\u0002y~\u0005\u0012",
@@ -84,7 +84,7 @@ var serializedATN = ["\u0003\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd",
     "\u0085\u0083\u0003\u0002\u0002\u0002\u0086\u0089\u0003\u0002\u0002\u0002",
     "\u0087\u0085\u0003\u0002\u0002\u0002\u0087\u0088\u0003\u0002\u0002\u0002",
     "\u0088\u0015\u0003\u0002\u0002\u0002\u0089\u0087\u0003\u0002\u0002\u0002",
-    "\u0010\u0018\u001a *4>KOZdr}\u007f\u0087"].join("");
+    "\u0010\u0018\u001a *4>KOZ`r}\u007f\u0087"].join("");
 
 
 var atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
@@ -93,15 +93,14 @@ var decisionsToDFA = atn.decisionToState.map( function(ds, index) { return new a
 
 var sharedContextCache = new antlr4.PredictionContextCache();
 
-var literalNames = [ 'null', "'='", "';'", "'float'", "'int'", "'void'", 
-                     "'('", "')'", "','", "'{'", "'}'", "'if'", "'then'", 
-                     "'else'", "'return'", "'['", "']'", "'-'", "'!'", "'*'", 
-                     "'+'", "'=='" ];
+var literalNames = [ null, "'='", "';'", "'float'", "'int'", "'void'", "'('", 
+                     "')'", "','", "'{'", "'}'", "'if'", "'then'", "'else'", 
+                     "'return'", "'['", "']'", "'-'", "'!'", "'*'", "'+'", 
+                     "'=='" ];
 
-var symbolicNames = [ 'null', 'null', 'null', 'null', 'null', 'null', 'null', 
-                      'null', 'null', 'null', 'null', 'null', 'null', 'null', 
-                      'null', 'null', 'null', 'null', 'null', 'null', 'null', 
-                      'null', "ID", "INT", "WS", "SL_COMMENT" ];
+var symbolicNames = [ null, null, null, null, null, null, null, null, null, 
+                      null, null, null, null, null, null, null, null, null, 
+                      null, null, null, null, "ID", "INT", "WS", "SL_COMMENT" ];
 
 var ruleNames =  [ "file", "varDecl", "type", "functionDecl", "formalParameters", 
                    "formalParameter", "block", "stat", "expr", "exprList" ];
@@ -229,6 +228,7 @@ CymbolParser.prototype.file = function() {
         _la = this._input.LA(1);
         do {
             this.state = 22;
+            this._errHandler.sync(this);
             var la_ = this._interp.adaptivePredict(this._input,0,this._ctx);
             switch(la_) {
             case 1:
@@ -784,6 +784,7 @@ CymbolParser.prototype.stat = function() {
     var _la = 0; // Token type
     try {
         this.state = 88;
+        this._errHandler.sync(this);
         var la_ = this._interp.adaptivePredict(this._input,8,this._ctx);
         switch(la_) {
         case 1:
@@ -809,6 +810,7 @@ CymbolParser.prototype.stat = function() {
             this.state = 70;
             this.stat();
             this.state = 73;
+            this._errHandler.sync(this);
             var la_ = this._interp.adaptivePredict(this._input,6,this._ctx);
             if(la_===1) {
                 this.state = 71;
@@ -885,6 +887,14 @@ function ExprContext(parser, parent, invokingState) {
 ExprContext.prototype = Object.create(antlr4.ParserRuleContext.prototype);
 ExprContext.prototype.constructor = ExprContext;
 
+ExprContext.prototype.ID = function() {
+    return this.getToken(CymbolParser.ID, 0);
+};
+
+ExprContext.prototype.exprList = function() {
+    return this.getTypedRuleContext(ExprListContext,0);
+};
+
 ExprContext.prototype.expr = function(i) {
     if(i===undefined) {
         i = null;
@@ -894,14 +904,6 @@ ExprContext.prototype.expr = function(i) {
     } else {
         return this.getTypedRuleContext(ExprContext,i);
     }
-};
-
-ExprContext.prototype.ID = function() {
-    return this.getToken(CymbolParser.ID, 0);
-};
-
-ExprContext.prototype.exprList = function() {
-    return this.getTypedRuleContext(ExprListContext,0);
 };
 
 ExprContext.prototype.INT = function() {
@@ -936,47 +938,48 @@ CymbolParser.prototype.expr = function(_p) {
     try {
         this.enterOuterAlt(localctx, 1);
         this.state = 112;
+        this._errHandler.sync(this);
         var la_ = this._interp.adaptivePredict(this._input,10,this._ctx);
         switch(la_) {
         case 1:
             this.state = 91;
-            this.match(CymbolParser.T__16);
-            this.state = 92;
-            this.expr(8);
-            break;
-
-        case 2:
-            this.state = 93;
-            this.match(CymbolParser.T__17);
-            this.state = 94;
-            this.expr(7);
-            break;
-
-        case 3:
-            this.state = 95;
             this.match(CymbolParser.ID);
-            this.state = 96;
+            this.state = 92;
             this.match(CymbolParser.T__5);
-            this.state = 98;
+            this.state = 94;
             _la = this._input.LA(1);
             if((((_la) & ~0x1f) == 0 && ((1 << _la) & ((1 << CymbolParser.T__5) | (1 << CymbolParser.T__16) | (1 << CymbolParser.T__17) | (1 << CymbolParser.ID) | (1 << CymbolParser.INT))) !== 0)) {
-                this.state = 97;
+                this.state = 93;
                 this.exprList();
             }
 
-            this.state = 100;
+            this.state = 96;
             this.match(CymbolParser.T__6);
             break;
 
-        case 4:
-            this.state = 101;
+        case 2:
+            this.state = 97;
             this.match(CymbolParser.ID);
-            this.state = 102;
+            this.state = 98;
             this.match(CymbolParser.T__14);
-            this.state = 103;
+            this.state = 99;
             this.expr(0);
-            this.state = 104;
+            this.state = 100;
             this.match(CymbolParser.T__15);
+            break;
+
+        case 3:
+            this.state = 102;
+            this.match(CymbolParser.T__16);
+            this.state = 103;
+            this.expr(8);
+            break;
+
+        case 4:
+            this.state = 104;
+            this.match(CymbolParser.T__17);
+            this.state = 105;
+            this.expr(7);
             break;
 
         case 5:
@@ -1010,6 +1013,7 @@ CymbolParser.prototype.expr = function(_p) {
                 }
                 _prevctx = localctx;
                 this.state = 123;
+                this._errHandler.sync(this);
                 var la_ = this._interp.adaptivePredict(this._input,11,this._ctx);
                 switch(la_) {
                 case 1:

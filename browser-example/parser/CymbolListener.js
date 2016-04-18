@@ -1,4 +1,4 @@
-// Generated from C:/Projects/JavaScript/antlr4-parser-example/browser-example\Cymbol.g4 by ANTLR 4.5.1
+// Generated from browser-example/Cymbol.g4 by ANTLR 4.5.3
 // jshint ignore: start
 var antlr4 = require('antlr4/index');
 

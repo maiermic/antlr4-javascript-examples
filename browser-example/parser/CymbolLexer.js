@@ -1,4 +1,4 @@
-// Generated from C:/Projects/JavaScript/antlr4-parser-example/browser-example\Cymbol.g4 by ANTLR 4.5.1
+// Generated from browser-example/Cymbol.g4 by ANTLR 4.5.3
 // jshint ignore: start
 var antlr4 = require('antlr4/index');
 
@@ -142,16 +142,15 @@ CymbolLexer.SL_COMMENT = 25;
 
 CymbolLexer.modeNames = [ "DEFAULT_MODE" ];
 
-CymbolLexer.literalNames = [ 'null', "'='", "';'", "'float'", "'int'", "'void'", 
+CymbolLexer.literalNames = [ null, "'='", "';'", "'float'", "'int'", "'void'", 
                              "'('", "')'", "','", "'{'", "'}'", "'if'", 
                              "'then'", "'else'", "'return'", "'['", "']'", 
                              "'-'", "'!'", "'*'", "'+'", "'=='" ];
 
-CymbolLexer.symbolicNames = [ 'null', 'null', 'null', 'null', 'null', 'null', 
-                              'null', 'null', 'null', 'null', 'null', 'null', 
-                              'null', 'null', 'null', 'null', 'null', 'null', 
-                              'null', 'null', 'null', 'null', "ID", "INT", 
-                              "WS", "SL_COMMENT" ];
+CymbolLexer.symbolicNames = [ null, null, null, null, null, null, null, 
+                              null, null, null, null, null, null, null, 
+                              null, null, null, null, null, null, null, 
+                              null, "ID", "INT", "WS", "SL_COMMENT" ];
 
 CymbolLexer.ruleNames = [ "T__0", "T__1", "T__2", "T__3", "T__4", "T__5", 
                           "T__6", "T__7", "T__8", "T__9", "T__10", "T__11", 
