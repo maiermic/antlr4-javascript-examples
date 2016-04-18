@@ -15,7 +15,7 @@ ace.define('ace/mode/my-mode',["require","exports","module","ace/lib/oop","ace/m
     }, "identifier");
     this.$rules = {
       "start": [
-        { token : "comment", regex : "//" },
+        { token : "comment", regex : '//.*' },
         { token : "string",  regex : '["](?:(?:\\\\.)|(?:[^"\\\\]))*?["]' },
         { token : "constant.numeric", regex : "0[xX][0-9a-fA-F]+\\b" },
         { token : "constant.numeric", regex: "[+-]?\\d+(?:(?:\\.\\d*)?(?:[eE][+-]?\\d+)?)?\\b" },
