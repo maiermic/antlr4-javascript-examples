@@ -39,6 +39,27 @@ ace.define('ace/mode/my-mode',["require","exports","module","ace/lib/oop","ace/m
 
     this.$id = "ace/mode/my-mode";
 
+    var WorkerClient = require("ace/worker/worker_client").WorkerClient;
+    this.createWorker = function(session) {
+      this.$worker = new WorkerClient(["ace"], "ace/worker/my-worker", "MyWorker", "my-worker.js");
+      this.$worker.attachToDocument(session.getDocument());
+
+      this.$worker.on("errors", function(e) {
+        session.setAnnotations(e.data);
+      });
+
+      this.$worker.on("annotate", function(e) {
+        session.setAnnotations(e.data);
+      });
+
+      this.$worker.on("terminate", function() {
+        session.clearAnnotations();
+      });
+
+      return this.$worker;
+
+    };
+
   }).call(MyMode.prototype);
 
   exports.Mode = MyMode;
