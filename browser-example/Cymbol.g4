@@ -53,5 +53,5 @@ INT :   [0-9]+ ;
 WS  :   [ \t\n\r]+ -> skip ;
 
 SL_COMMENT
-    :   '//' .*? '\n' -> skip
+    :   '//' .*? '\n' -> channel(HIDDEN)
     ;
