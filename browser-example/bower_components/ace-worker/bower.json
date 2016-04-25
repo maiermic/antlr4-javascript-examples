@@ -1,0 +1,24 @@
+{
+  "name": "ace-worker",
+  "authors": [
+    "Fabian Jakobs <fabian@c9.io>",
+    "Michael Maier"
+  ],
+  "description": "Scripts that are required to write a worker for the ACE editor.",
+  "main": "worker.js",
+  "keywords": [
+    "ace",
+    "editor",
+    "worker",
+    "mirror"
+  ],
+  "license": "BSD",
+  "homepage": "https://github.com/maiermic/ace-worker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maiermic/ace-worker.git"
+  },
+  "ignore": [
+    "**/.*"
+  ]
+}

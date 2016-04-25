@@ -1,6 +1,6 @@
-importScripts("ace/worker.js");
-importScripts("ace/ace.js");
-importScripts("ace/mirror.js");
+importScripts("bower_components/ace-worker/worker.js");
+importScripts("bower_components/ace-builds/src-noconflict/ace.js");
+importScripts("bower_components/ace-worker/mirror.js");
 
 ace.define('ace/worker/my-worker',["require","exports","module","ace/lib/oop","ace/worker/mirror"], function(require, exports, module) {
   "use strict";

@@ -1,0 +1,41 @@
+{
+  "name": "antlr4-ace-ext",
+  "version": "1.0.0",
+  "description": "Tokenizer for ACE editor to do syntax highlighting using an ANTLR4 lexer.",
+  "main": "src/tokenizer.js",
+  "scripts": {
+    "build": "npm run build-grammars",
+    "build-grammars": "npm run build-grammar-VariableDeclaration && npm run build-grammar-SingleToken && npm run build-grammar-SkippedToken && npm run build-grammar-TokenWithLineFeed",
+    "build-grammar-VariableDeclaration": "antlr4 -Dlanguage=JavaScript grammar/VariableDeclaration.g4 -o parser/VariableDeclaration",
+    "build-grammar-SingleToken": "antlr4 -Dlanguage=JavaScript grammar/SingleToken.g4 -o parser/SingleToken",
+    "build-grammar-SkippedToken": "antlr4 -Dlanguage=JavaScript grammar/SkippedToken.g4 -o parser/SkippedToken",
+    "build-grammar-TokenWithLineFeed": "antlr4 -Dlanguage=JavaScript grammar/TokenWithLineFeed.g4 -o parser/TokenWithLineFeed",
+    "test": "mocha --recursive --ui exports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maiermic/antlr4-ace-ext.git"
+  },
+  "keywords": [
+    "ace",
+    "editor",
+    "antlr",
+    "antlr4",
+    "lexer",
+    "tokenizer",
+    "syntax",
+    "highlighting"
+  ],
+  "author": "Michael Maier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiermic/antlr4-ace-ext/issues"
+  },
+  "homepage": "https://github.com/maiermic/antlr4-ace-ext#readme",
+  "devDependencies": {
+    "amd-loader": "0.0.5",
+    "antlr4": "^4.5.2",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

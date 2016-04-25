@@ -7,11 +7,18 @@
 
   <script src="require.js"></script>
   <script type="application/javascript">
+    var antlr4 = require('antlr4/index');
     var antlr4_require = require;
   </script>
-  <script src="ace/ace.js"></script>
-  <script src="theme-twilight.js"></script>
-  <script src="my-mode.js"></script>
+  <script src="bower_components/ace-builds/src-noconflict/ace.js"></script>
+  <script>
+    ace.define('antlr4/index', function (require, exports, module) {
+      module.exports = antlr4;
+    });
+  </script>
+  <script src="ace-config.js"></script>
+  <script src="bower_components/antlr4-ace-ext/src/token-type-map.js"></script>
+  <script src="bower_components/antlr4-ace-ext/src/tokenizer.js"></script>
 </head>
 <body>
   <div id="editor">// http://media.pragprog.com/titles/tpantlr2/code/examples/t.cymbol
@@ -21,6 +28,7 @@ int fact(int x) { // factorial function
   if x==0 then return 1;
   return x * fact(x-1);
 }</div>
+
   <script src="index.js"></script>
 </body>
 </html>

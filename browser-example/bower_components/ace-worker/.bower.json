@@ -1,0 +1,34 @@
+{
+  "name": "ace-worker",
+  "authors": [
+    "Fabian Jakobs <fabian@c9.io>",
+    "Michael Maier"
+  ],
+  "description": "Scripts that are required to write a worker for the ACE editor.",
+  "main": "worker.js",
+  "keywords": [
+    "ace",
+    "editor",
+    "worker",
+    "mirror"
+  ],
+  "license": "BSD",
+  "homepage": "https://github.com/maiermic/ace-worker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maiermic/ace-worker.git"
+  },
+  "ignore": [
+    "**/.*"
+  ],
+  "version": "1.2.3",
+  "_release": "1.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.3",
+    "commit": "e8c001d4ad4ed4f51f43541edce2380bb7be5484"
+  },
+  "_source": "https://github.com/maiermic/ace-worker.git",
+  "_target": "^1.2.3",
+  "_originalSource": "ace-worker"
+}

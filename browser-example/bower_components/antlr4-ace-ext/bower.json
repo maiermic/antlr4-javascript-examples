@@ -1,0 +1,36 @@
+{
+  "name": "antlr4-ace-ext",
+  "description": "Tokenizer for ACE editor to do syntax highlighting using an ANTLR4 lexer.",
+  "main": "src/tokenizer.js",
+  "moduleType": [
+    "amd"
+  ],
+  "authors": [
+    "Michael Maier"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ace",
+    "editor",
+    "antlr",
+    "antlr4",
+    "lexer",
+    "tokenizer",
+    "syntax",
+    "highlighting"
+  ],
+  "homepage": "https://github.com/maiermic/antlr4-ace-ext",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maiermic/antlr4-ace-ext.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "grammar",
+    "parser"
+  ]
+}
